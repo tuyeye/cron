@@ -25,3 +25,8 @@ ReactDOM.render(<Cron setValue={ value => console.log(value)} showResult/>, moun
 | ------ | ------ | ------ | ------ |
 | setValue | (value:string)=>void | 值改變的回調函數 | - |
 | showResult | boolean | 是否要在組件下方顯示結果 | false |
+
+## 按需加载导致的样式丢失问题的解决办法
+```tsx
+ import 'antd/dist/antd.css';
+ ```
