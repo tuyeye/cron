@@ -7,6 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/tuyeye"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tuyeye/cron.git"
